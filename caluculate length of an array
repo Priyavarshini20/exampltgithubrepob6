@@ -1,0 +1,5 @@
+// calculate the length of an array program
+
+	var arr = new Array( 100, 200, 300, 400, 500, 600 );  
+	console.log(" The elements of array are: " + arr);  
+	console.log(" <br>The length of the array is: " + arr.length);  

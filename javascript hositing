@@ -1,0 +1,5 @@
+// javascript hoisting proghram
+
+	x=10;  
+	console.log(x);  
+	var x;  
