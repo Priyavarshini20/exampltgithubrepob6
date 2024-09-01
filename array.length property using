@@ -1,0 +1,13 @@
+// array.length property using  program
+
+	var arr = [100, 200];  
+	console.log(" Before setting the length, the array elements are: " + arr);  
+	  
+	arr.length = 9;  
+	console.log("<br><br> After setting the length, the array elements are: " + arr);  
+    15.	arr[2] = 300;  
+      arr[3] = 400;  
+	arr[4] = 500;  
+	arr[5] = 600;  
+	console.log("<br><br> After inserting some array elements: " + arr);  
+
