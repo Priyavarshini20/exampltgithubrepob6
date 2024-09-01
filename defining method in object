@@ -1,11 +1,18 @@
 // example of defining method in object program
 
-2.	function emp(id,name,salary){  
-    3.	this.id=id;  
-    4.	this.name=name;  
-    5.	this.salary=salary;  
-    6.	}  
-    7.	e=new emp(103,"Vimal Jaiswal",30000);  
-    8.	  
-    9.	console.log(e.id+" "+e.name+" "+e.salary);  
+	function emp(id,name,salary){  
+    	this.id=id;  
+    	this.name=name;  
+    	this.salary=salary;  
+    	  
+    	this.changeSalary=changeSalary;  
+    	function changeSalary(otherSalary){  
+    	this.salary=otherSalary;  
+    	}  
+    	}  
+    	e=new emp(103,"Sonoo Jaiswal",30000);  
+    	document.write(e.id+" "+e.name+" "+e.salary);  
+    	e.changeSalary(45000);  
+    	document.write("<br>"+e.id+" "+e.name+" "+e.salary);  
+    
     
