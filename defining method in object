@@ -1,0 +1,11 @@
+// example of defining method in object program
+
+2.	function emp(id,name,salary){  
+    3.	this.id=id;  
+    4.	this.name=name;  
+    5.	this.salary=salary;  
+    6.	}  
+    7.	e=new emp(103,"Vimal Jaiswal",30000);  
+    8.	  
+    9.	console.log(e.id+" "+e.name+" "+e.salary);  
+    
