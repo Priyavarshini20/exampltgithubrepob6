@@ -1,0 +1,1 @@
+This program is used to teach variable concept
