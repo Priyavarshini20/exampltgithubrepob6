@@ -1,0 +1,10 @@
+// array length program
+
+	var arr = new Array();  
+	arr['a'] = 100;  
+	arr['b'] = 200;  
+	arr['c'] = 300;  
+	arr['d'] = 400;  
+	arr['e'] = 500;  
+	  
+	console.log("The length of array is: " + arr.length);  

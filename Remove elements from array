@@ -1,0 +1,14 @@
+// remove  elements from array program
+
+function removeLastElement() {    
+var shoeBrand = ["Nike", " Adidas", " Sparks", " RedTape"];    
+    	    
+console.log("Elements in array before removing: <br>" + shoeBrand + "<br> <br>"); 
+var poppedElement = shoeBrand.pop();    
+console.log("Removed element from array: " + poppedElement + "<br> <br>");    
+console.log("Elements present in array: <br>" + shoeBrand);    
+	}    
+	removeLastElement();    
+	  
+
+    

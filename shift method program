@@ -1,0 +1,4 @@
+// shift method program
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();

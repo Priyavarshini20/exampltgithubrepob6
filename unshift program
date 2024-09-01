@@ -1,0 +1,4 @@
+// example of unshift program
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon","Pineapple");

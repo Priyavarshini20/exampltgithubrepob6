@@ -1,0 +1,10 @@
+// example remove array elements filter
+
+	function isEven( value ) {    
+    if(value%2 == 0)  
+    return value;  
+    	}     
+//initialize the array named ary  
+var ary = [43, 243, 56, 24, 1021, 348].filter( isEven );    
+    	    console.log("Even elements in array: " + ary);     
+    
