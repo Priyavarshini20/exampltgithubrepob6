@@ -1,0 +1,5 @@
+// function with return vaklue program
+	function getInfo(){  
+    	return "hello javatpoint! How r u?";  
+    	}  
+    
