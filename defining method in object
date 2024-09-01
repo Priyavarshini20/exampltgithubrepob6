@@ -11,8 +11,8 @@
     	}  
     	}  
     	e=new emp(103,"Sonoo Jaiswal",30000);  
-    	document.write(e.id+" "+e.name+" "+e.salary);  
+    	console.log(e.id+" "+e.name+" "+e.salary);  
     	e.changeSalary(45000);  
-    	document.write("<br>"+e.id+" "+e.name+" "+e.salary);  
+    	console.log("<br>"+e.id+" "+e.name+" "+e.salary);  
     
     
