@@ -1,0 +1,7 @@
+// arrow function with default parameters
+
+	var show = (a, b=200) => {
+   	    console.log(a + " " + b);
+   	}
+    	show(100);
+    
